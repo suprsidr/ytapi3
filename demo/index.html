@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtuber | Welcome</title>
+    <!--[if lt IE 9]>
+    <script src="js/vendor/ie8-patch-header.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/vendor/modernizr.min.js"></script>
+		<style type="text/css" media="screen">
+			body {font-size: 75%;}
+		</style>
+	</head>
+	<body>
+	  <section id="gallery" class="white-section yt-plugin">
+      <div class="row">
+        <div class="large-12 medium-12 small-12 columns iframe-container">
+          <div class="iframe-padding"></div>
+          <iframe frameborder="0" allowfullscreen></iframe>
+        </div>
+        <!--<div class="large-4 medium-4 small-12 columns desc-container">
+          <h4></h4>
+          <p></p>
+        </div>-->
+      </div>
+      <div class="row">
+        <div class="large-12 medium-12 small-12 columns desc-container under">
+        </div>
+      </div>
+      <div class="row control-bar">
+        <div class="large-4 medium-12 small-12 columns channel-container">
+          <div class="channel-selector">
+            <h5 class="current-channel"></h5>
+            <ul class="sub-menu"></ul>
+          </div>
+        </div>
+        <div class="large-4 medium-6 small-12 columns playlist-container">
+          <!-- middle column what do we want here? -->
+          <h6 class="msg"></h6>
+        </div>
+        <div class="large-4 medium-6 small-12 columns button-container text-center">
+          <div class="row collapse search-container">
+            <div class="small-10 columns">
+              <input class="search-box" type="text" placeholder="Search this channel">
+            </div>
+            <div class="small-2 columns">
+              <a class="button postfix" href="#search">Go</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-12 medium-12 small-12 columns thumbs-list-container">
+          <a class="prev-arrow"></a><a class="next-arrow"></a>
+          <ul class="small-block-grid-2 medium-block-grid-5 large-block-grid-5 thumbs-list"></ul>
+        </div>
+      </div>
+    </section>
+    <!--[if lt IE 9]>
+    <script src="js/vendor/ie8-patch-footer.min.js"></script>
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/fastclick.js"></script>
+    <!--<![endif]-->
+    <script src="js/foundation.min.js"></script>
+    <script src="dist/jquery.ytapi3.js"></script>
+		<script>
+			$(function() {
+				$('#gallery').ytapi3({
+				  key : 'AIzaSyDKzdYCBqdtu0F8oAh2GPB4K2RExdyUzkA',
+				  maxResults: 5,
+				  playlist: [
+            {name: 'HorizonHobbyProducts', id: 'HorizonHobbyProducts', type: 'channelid'},
+            {name: 'HorizonRCdotcom', id: 'HorizonRCdotcom', type: 'channelid'},
+            {name: 'HorizonHD', id: 'HorizonHD', type: 'channelid'},
+            {name: 'Losi 5IVE-T Tutorials', id: 'D2B9F247E0BF7DD6', type: 'playlistid'},
+            {name: 'Reviews and Previews - Air', id: '5634B781D501889A', type: 'playlistid'},
+            {name: 'Reviews and Previews - Surface', id: 'B7EFA3DD0F986EBB', type: 'playlistid'},
+            {name: 'How-tos - Air', id: '15B0741B7E0D1903', type: 'playlistid'},
+            {name: 'How-tos - Surface', id: '6B9F70AA3DB11B31', type: 'playlistid'},
+            {name: 'Event Coverage', id: 'DBB870B7A3FD57C9', type: 'playlistid'},
+            {name: 'On the Horizon Weekly Broadcasts', id: 'F51DEB8C53544CB4', type: 'playlistid'}
+          ]
+          //videoList: '8tIMkufHjUs,QPHgDzDtJ9c,nOL-_aZpbRE,AXoV5jp-H3k,2XJv0YXWdEI,pL3xXVjTQPI,PSxAe74TKqQ,YEH_zpOn5OI,0aJQaSkx2D4,jOTGVeQzVio'
+				});
+			});
+		</script>
+	</body>
+</html>
