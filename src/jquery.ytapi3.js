@@ -50,9 +50,9 @@
       // Add expected elements
       this.descContainer.append('<h4 /><p />');
       // Setup our list
-      if(this.options.videoList.length > 0) {
+      if(this.options.videoList.length) {
         this.getVideoItems(this.options.videoList);
-      } else if(this.options.playlist.length > 1) {
+      } else if(this.options.playlist.length) {
         $.each(this.options.playlist, function(){
           self.channelContainer.find('.sub-menu').append(
             $('<li />').append(
