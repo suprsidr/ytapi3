@@ -313,7 +313,7 @@ $cursor-text-value: text !default;
   // Used to provide media query values for javascript components.
   // Forward slash placed around everything to convince PhantomJS to read the value.
 
-  meta.foundation-version {
+  /*meta.foundation-version {
     font-family: "/5.3.0/";
   }
 
@@ -344,12 +344,12 @@ $cursor-text-value: text !default;
 
   meta.foundation-data-attribute-namespace {
     font-family: #{$namespace};
-  }
+  }*/
 
   @if $include-html-global-classes {
 
     // Must be 100% for off canvas to work
-    html, body { height: 100%; }
+   // html, body { height: 100%; }
 
     // Set box-sizing globally to handle padding and border widths
     *,
@@ -358,7 +358,7 @@ $cursor-text-value: text !default;
       @include box-sizing(border-box);
     }
 
-    html,
+    /*html,
     body { font-size: $base-font-size; }
 
     // Default body styles
@@ -373,7 +373,7 @@ $cursor-text-value: text !default;
       line-height: 1; // Set to $base-line-height to take on browser default of 150%
       position: relative;
       cursor: $cursor-default-value;
-    }
+    }*/
 
   a:hover { cursor: $cursor-pointer-value; }
 
@@ -381,14 +381,14 @@ $cursor-text-value: text !default;
     img { max-width: 100%; height: auto; }
 
     img { -ms-interpolation-mode: bicubic; }
-
-    #map_canvas,
-    .map_canvas {
-      img,
-      embed,
-      object { max-width: none !important;
-      }
-    }
+/*
+    //#map_canvas,
+    //.map_canvas {
+    //  img,
+    //  embed,
+    //  object { max-width: none !important;
+   //   }
+   // }
 
     // Miscellaneous useful HTML classes
     .left   { float: left !important; }
@@ -413,9 +413,9 @@ $cursor-text-value: text !default;
     //
 
     // Make sure textarea takes on height automatically
-    textarea { height: auto; min-height: 50px; }
+    //textarea { height: auto; min-height: 50px; }
 
     // Make select elements 100% width by default
-    select { width: 100%; }
+    //select { width: 100%; }*/
   }
 }
