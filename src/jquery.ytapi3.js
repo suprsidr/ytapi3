@@ -165,7 +165,7 @@
         playlistId: playlistId,
         maxResults: self.options.maxResults,
         order: 'date', // rating, relevance, title, videoCount and viewCount
-        pageToken: token || null
+        pageToken: token || ''
       };
       self.options.currentPlaylistId = playlistId;
       $.ajax({

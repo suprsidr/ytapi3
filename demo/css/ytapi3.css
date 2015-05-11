@@ -1,4 +1,25 @@
+html {
+  font-size: 16px; }
+
+body {
+  font-size: 75%;
+  color: #333; }
+
 .yt-plugin {
+  /* The Grid ---------------------- */
+  /* Standard Forms */
+  /* Using forms within rows, we need to set some defaults */
+  /* Label Styles */
+  /* Attach elements to the beginning or end of an input */
+  /* Adjust padding, alignment and radius if pre/post element is a button */
+  /* Separate prefix and postfix styles when on span or label so buttons keep their own */
+  /* We use this to get basic styling on all basic form elements */
+  /* Respect enforced amount of rows for textarea */
+  /* Add height value for select elements to match text input height */
+  /* Adjust margin for form elements below */
+  /* Normalize file input width */
+  /* We add basic fieldset styling */
+  /* Error Handling */
   /* Typography resets */
   /* Default Link Styles */
   /* Default paragraph styles */
@@ -16,17 +37,7 @@
        *
        * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
        * Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
-      */
-  /* small displays */
-  /* medium displays */
-  /* large displays */
-  /* xlarge displays */
-  /* xxlarge displays */
-  /* Orientation targeting */
-  /* Specific visibility for tables */
-  /* Touch-enabled device targeting */
-  /* Specific visibility for tables */
-  /* Print visibility */ }
+      */ }
   .yt-plugin *, .yt-plugin *:before, .yt-plugin *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -788,6 +799,126 @@
       position: relative;
       right: 91.6666666667%;
       left: auto; } }
+  .yt-plugin .lt-ie9 {
+    /* Nicolas Gallagher's micro clearfix */ }
+    .yt-plugin .lt-ie9 .row {
+      width: 940px;
+      max-width: 100%;
+      min-width: 768px;
+      margin: 0 auto; }
+    .yt-plugin .lt-ie9 .row .row {
+      width: auto;
+      max-width: none;
+      min-width: 0;
+      margin: 0 -15px; }
+    .yt-plugin .lt-ie9 .row.large-collapse .column, .yt-plugin .lt-ie9 .row.large-collapse .columns {
+      padding: 0; }
+    .yt-plugin .lt-ie9 .row .row {
+      width: auto;
+      max-width: none;
+      min-width: 0;
+      margin: 0 -15px; }
+    .yt-plugin .lt-ie9 .row .row.large-collapse {
+      margin: 0; }
+    .yt-plugin .lt-ie9 .column, .yt-plugin .lt-ie9 .columns {
+      float: left;
+      min-height: 1px;
+      padding: 0 15px;
+      position: relative; }
+    .yt-plugin .lt-ie9 .column.large-centered, .yt-plugin .lt-ie9 .columns.large-centered {
+      float: none;
+      margin: 0 auto; }
+    .yt-plugin .lt-ie9 [class*="column"] + [class*="column"]:last-child {
+      float: right; }
+    .yt-plugin .lt-ie9 [class*="column"] + [class*="column"].end {
+      float: left; }
+    .yt-plugin .lt-ie9 .large-1, .yt-plugin .lt-ie9 .row .large-1 {
+      width: 8.33333%; }
+    .yt-plugin .lt-ie9 .large-2, .yt-plugin .lt-ie9 .row .large-2 {
+      width: 16.66667%; }
+    .yt-plugin .lt-ie9 .large-3, .yt-plugin .lt-ie9 .row .large-3 {
+      width: 25%; }
+    .yt-plugin .lt-ie9 .large-4, .yt-plugin .lt-ie9 .row .large-4 {
+      width: 33.33333%; }
+    .yt-plugin .lt-ie9 .large-5, .yt-plugin .lt-ie9 .row .large-5 {
+      width: 41.66667%; }
+    .yt-plugin .lt-ie9 .large-6, .yt-plugin .lt-ie9 .row .large-6 {
+      width: 50%; }
+    .yt-plugin .lt-ie9 .large-7, .yt-plugin .lt-ie9 .row .large-7 {
+      width: 58.33333%; }
+    .yt-plugin .lt-ie9 .large-8, .yt-plugin .lt-ie9 .row .large-8 {
+      width: 66.66667%; }
+    .yt-plugin .lt-ie9 .large-9, .yt-plugin .lt-ie9 .row .large-9 {
+      width: 75%; }
+    .yt-plugin .lt-ie9 .large-10, .yt-plugin .lt-ie9 .row .large-10 {
+      width: 83.33333%; }
+    .yt-plugin .lt-ie9 .large-11, .yt-plugin .lt-ie9 .row .large-11 {
+      width: 91.66667%; }
+    .yt-plugin .lt-ie9 .large-12, .yt-plugin .lt-ie9 .row .large-12 {
+      width: 100%; }
+    .yt-plugin .lt-ie9 .row .large-offset-1 {
+      margin-left: 8.33333%; }
+    .yt-plugin .lt-ie9 .row .large-offset-2 {
+      margin-left: 16.66667%; }
+    .yt-plugin .lt-ie9 .row .large-offset-3 {
+      margin-left: 25%; }
+    .yt-plugin .lt-ie9 .row .large-offset-4 {
+      margin-left: 33.33333%; }
+    .yt-plugin .lt-ie9 .row .large-offset-5 {
+      margin-left: 41.66667%; }
+    .yt-plugin .lt-ie9 .row .large-offset-6 {
+      margin-left: 50%; }
+    .yt-plugin .lt-ie9 .row .large-offset-7 {
+      margin-left: 58.33333%; }
+    .yt-plugin .lt-ie9 .row .large-offset-8 {
+      margin-left: 66.66667%; }
+    .yt-plugin .lt-ie9 .row .large-offset-9 {
+      margin-left: 75%; }
+    .yt-plugin .lt-ie9 .row .large-offset-10 {
+      margin-left: 83.33333%; }
+    .yt-plugin .lt-ie9 .pull-2 {
+      right: 16.66667%; }
+    .yt-plugin .lt-ie9 .pull-3 {
+      right: 25%; }
+    .yt-plugin .lt-ie9 .pull-4 {
+      right: 33.33333%; }
+    .yt-plugin .lt-ie9 .pull-5 {
+      right: 41.66667%; }
+    .yt-plugin .lt-ie9 .pull-6 {
+      right: 50%; }
+    .yt-plugin .lt-ie9 .pull-7 {
+      right: 58.33333%; }
+    .yt-plugin .lt-ie9 .pull-8 {
+      right: 66.66667%; }
+    .yt-plugin .lt-ie9 .pull-9 {
+      right: 75%; }
+    .yt-plugin .lt-ie9 .pull-10 {
+      right: 83.33333%; }
+    .yt-plugin .lt-ie9 .push-2 {
+      left: 16.66667%; }
+    .yt-plugin .lt-ie9 .push-3 {
+      left: 25%; }
+    .yt-plugin .lt-ie9 .push-4 {
+      left: 33.33333%; }
+    .yt-plugin .lt-ie9 .push-5 {
+      left: 41.66667%; }
+    .yt-plugin .lt-ie9 .push-6 {
+      left: 50%; }
+    .yt-plugin .lt-ie9 .push-7 {
+      left: 58.33333%; }
+    .yt-plugin .lt-ie9 .push-8 {
+      left: 66.66667%; }
+    .yt-plugin .lt-ie9 .push-9 {
+      left: 75%; }
+    .yt-plugin .lt-ie9 .push-10 {
+      left: 83.33333%; }
+    .yt-plugin .lt-ie9 .row {
+      *zoom: 1; }
+    .yt-plugin .lt-ie9 .row:before, .yt-plugin .lt-ie9 .row:after {
+      content: " ";
+      display: table; }
+    .yt-plugin .lt-ie9 .row:after {
+      clear: both; }
   .yt-plugin [class*="block-grid-"] {
     display: block;
     padding: 0;
@@ -1057,6 +1188,372 @@
         clear: none; }
       .yt-plugin .large-block-grid-12 > li:nth-of-type(12n+1) {
         clear: both; } }
+  .yt-plugin button, .yt-plugin .button {
+    border-style: solid;
+    border-width: 0px;
+    cursor: pointer;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1.0625rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    background-color: #008CBA;
+    border-color: #007295;
+    color: #fff;
+    transition: background-color 300ms ease-out; }
+    .yt-plugin button:hover, .yt-plugin button:focus, .yt-plugin .button:hover, .yt-plugin .button:focus {
+      background-color: #007295; }
+    .yt-plugin button:hover, .yt-plugin button:focus, .yt-plugin .button:hover, .yt-plugin .button:focus {
+      color: #fff; }
+    .yt-plugin button.secondary, .yt-plugin .button.secondary {
+      background-color: #e7e7e7;
+      border-color: #007295;
+      color: #333; }
+      .yt-plugin button.secondary:hover, .yt-plugin button.secondary:focus, .yt-plugin .button.secondary:hover, .yt-plugin .button.secondary:focus {
+        background-color: #007295; }
+      .yt-plugin button.secondary:hover, .yt-plugin button.secondary:focus, .yt-plugin .button.secondary:hover, .yt-plugin .button.secondary:focus {
+        color: #333; }
+    .yt-plugin button.success, .yt-plugin .button.success {
+      background-color: #43AC6A;
+      border-color: #007295;
+      color: #fff; }
+      .yt-plugin button.success:hover, .yt-plugin button.success:focus, .yt-plugin .button.success:hover, .yt-plugin .button.success:focus {
+        background-color: #007295; }
+      .yt-plugin button.success:hover, .yt-plugin button.success:focus, .yt-plugin .button.success:hover, .yt-plugin .button.success:focus {
+        color: #fff; }
+    .yt-plugin button.alert, .yt-plugin .button.alert {
+      background-color: #f04124;
+      border-color: #007295;
+      color: #fff; }
+      .yt-plugin button.alert:hover, .yt-plugin button.alert:focus, .yt-plugin .button.alert:hover, .yt-plugin .button.alert:focus {
+        background-color: #007295; }
+      .yt-plugin button.alert:hover, .yt-plugin button.alert:focus, .yt-plugin .button.alert:hover, .yt-plugin .button.alert:focus {
+        color: #fff; }
+    .yt-plugin button.large, .yt-plugin .button.large {
+      padding-top: 1.125rem;
+      padding-right: 2.25rem;
+      padding-bottom: 1.1875rem;
+      padding-left: 2.25rem;
+      font-size: 1.25rem; }
+    .yt-plugin button.small, .yt-plugin .button.small {
+      padding-top: 0.875rem;
+      padding-right: 1.75rem;
+      padding-bottom: 0.9375rem;
+      padding-left: 1.75rem;
+      font-size: 0.8125rem; }
+    .yt-plugin button.tiny, .yt-plugin .button.tiny {
+      padding-top: 0.625rem;
+      padding-right: 1.25rem;
+      padding-bottom: 0.6875rem;
+      padding-left: 1.25rem;
+      font-size: 0.6875rem; }
+    .yt-plugin button.expand, .yt-plugin .button.expand {
+      padding-right: 0;
+      padding-left: 0;
+      width: 100%; }
+    .yt-plugin button.left-align, .yt-plugin .button.left-align {
+      text-align: left;
+      text-indent: 0.75rem; }
+    .yt-plugin button.right-align, .yt-plugin .button.right-align {
+      text-align: right;
+      padding-right: 0.75rem; }
+    .yt-plugin button.radius, .yt-plugin .button.radius {
+      border-radius: 3px; }
+    .yt-plugin button.round, .yt-plugin .button.round {
+      border-radius: 1000px; }
+    .yt-plugin button.disabled, .yt-plugin button[disabled], .yt-plugin .button.disabled, .yt-plugin .button[disabled] {
+      background-color: #008CBA;
+      border-color: #007295;
+      color: #fff;
+      cursor: default;
+      opacity: 0.7;
+      box-shadow: none; }
+      .yt-plugin button.disabled:hover, .yt-plugin button.disabled:focus, .yt-plugin button[disabled]:hover, .yt-plugin button[disabled]:focus, .yt-plugin .button.disabled:hover, .yt-plugin .button.disabled:focus, .yt-plugin .button[disabled]:hover, .yt-plugin .button[disabled]:focus {
+        background-color: #007295; }
+      .yt-plugin button.disabled:hover, .yt-plugin button.disabled:focus, .yt-plugin button[disabled]:hover, .yt-plugin button[disabled]:focus, .yt-plugin .button.disabled:hover, .yt-plugin .button.disabled:focus, .yt-plugin .button[disabled]:hover, .yt-plugin .button[disabled]:focus {
+        color: #fff; }
+      .yt-plugin button.disabled:hover, .yt-plugin button.disabled:focus, .yt-plugin button[disabled]:hover, .yt-plugin button[disabled]:focus, .yt-plugin .button.disabled:hover, .yt-plugin .button.disabled:focus, .yt-plugin .button[disabled]:hover, .yt-plugin .button[disabled]:focus {
+        background-color: #008CBA; }
+      .yt-plugin button.disabled.secondary, .yt-plugin button[disabled].secondary, .yt-plugin .button.disabled.secondary, .yt-plugin .button[disabled].secondary {
+        background-color: #e7e7e7;
+        border-color: #007295;
+        color: #333;
+        cursor: default;
+        opacity: 0.7;
+        box-shadow: none; }
+        .yt-plugin button.disabled.secondary:hover, .yt-plugin button.disabled.secondary:focus, .yt-plugin button[disabled].secondary:hover, .yt-plugin button[disabled].secondary:focus, .yt-plugin .button.disabled.secondary:hover, .yt-plugin .button.disabled.secondary:focus, .yt-plugin .button[disabled].secondary:hover, .yt-plugin .button[disabled].secondary:focus {
+          background-color: #007295; }
+        .yt-plugin button.disabled.secondary:hover, .yt-plugin button.disabled.secondary:focus, .yt-plugin button[disabled].secondary:hover, .yt-plugin button[disabled].secondary:focus, .yt-plugin .button.disabled.secondary:hover, .yt-plugin .button.disabled.secondary:focus, .yt-plugin .button[disabled].secondary:hover, .yt-plugin .button[disabled].secondary:focus {
+          color: #333; }
+        .yt-plugin button.disabled.secondary:hover, .yt-plugin button.disabled.secondary:focus, .yt-plugin button[disabled].secondary:hover, .yt-plugin button[disabled].secondary:focus, .yt-plugin .button.disabled.secondary:hover, .yt-plugin .button.disabled.secondary:focus, .yt-plugin .button[disabled].secondary:hover, .yt-plugin .button[disabled].secondary:focus {
+          background-color: #e7e7e7; }
+      .yt-plugin button.disabled.success, .yt-plugin button[disabled].success, .yt-plugin .button.disabled.success, .yt-plugin .button[disabled].success {
+        background-color: #43AC6A;
+        border-color: #007295;
+        color: #fff;
+        cursor: default;
+        opacity: 0.7;
+        box-shadow: none; }
+        .yt-plugin button.disabled.success:hover, .yt-plugin button.disabled.success:focus, .yt-plugin button[disabled].success:hover, .yt-plugin button[disabled].success:focus, .yt-plugin .button.disabled.success:hover, .yt-plugin .button.disabled.success:focus, .yt-plugin .button[disabled].success:hover, .yt-plugin .button[disabled].success:focus {
+          background-color: #007295; }
+        .yt-plugin button.disabled.success:hover, .yt-plugin button.disabled.success:focus, .yt-plugin button[disabled].success:hover, .yt-plugin button[disabled].success:focus, .yt-plugin .button.disabled.success:hover, .yt-plugin .button.disabled.success:focus, .yt-plugin .button[disabled].success:hover, .yt-plugin .button[disabled].success:focus {
+          color: #fff; }
+        .yt-plugin button.disabled.success:hover, .yt-plugin button.disabled.success:focus, .yt-plugin button[disabled].success:hover, .yt-plugin button[disabled].success:focus, .yt-plugin .button.disabled.success:hover, .yt-plugin .button.disabled.success:focus, .yt-plugin .button[disabled].success:hover, .yt-plugin .button[disabled].success:focus {
+          background-color: #43AC6A; }
+      .yt-plugin button.disabled.alert, .yt-plugin button[disabled].alert, .yt-plugin .button.disabled.alert, .yt-plugin .button[disabled].alert {
+        background-color: #f04124;
+        border-color: #007295;
+        color: #fff;
+        cursor: default;
+        opacity: 0.7;
+        box-shadow: none; }
+        .yt-plugin button.disabled.alert:hover, .yt-plugin button.disabled.alert:focus, .yt-plugin button[disabled].alert:hover, .yt-plugin button[disabled].alert:focus, .yt-plugin .button.disabled.alert:hover, .yt-plugin .button.disabled.alert:focus, .yt-plugin .button[disabled].alert:hover, .yt-plugin .button[disabled].alert:focus {
+          background-color: #007295; }
+        .yt-plugin button.disabled.alert:hover, .yt-plugin button.disabled.alert:focus, .yt-plugin button[disabled].alert:hover, .yt-plugin button[disabled].alert:focus, .yt-plugin .button.disabled.alert:hover, .yt-plugin .button.disabled.alert:focus, .yt-plugin .button[disabled].alert:hover, .yt-plugin .button[disabled].alert:focus {
+          color: #fff; }
+        .yt-plugin button.disabled.alert:hover, .yt-plugin button.disabled.alert:focus, .yt-plugin button[disabled].alert:hover, .yt-plugin button[disabled].alert:focus, .yt-plugin .button.disabled.alert:hover, .yt-plugin .button.disabled.alert:focus, .yt-plugin .button[disabled].alert:hover, .yt-plugin .button[disabled].alert:focus {
+          background-color: #f04124; }
+  .yt-plugin button::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  @media only screen and (min-width:40.063em) {
+    .yt-plugin button, .yt-plugin .button {
+      display: inline-block; } }
+  .yt-plugin form {
+    margin: 0 0 1rem; }
+  .yt-plugin form .row .row {
+    margin: 0 -0.5rem; }
+    .yt-plugin form .row .row .column, .yt-plugin form .row .row .columns {
+      padding: 0 0.5rem; }
+    .yt-plugin form .row .row.collapse {
+      margin: 0; }
+      .yt-plugin form .row .row.collapse .column, .yt-plugin form .row .row.collapse .columns {
+        padding: 0; }
+      .yt-plugin form .row .row.collapse input {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0; }
+  .yt-plugin form .row input.column, .yt-plugin form .row input.columns, .yt-plugin form .row textarea.column, .yt-plugin form .row textarea.columns {
+    padding-left: 0.5rem; }
+  .yt-plugin label {
+    font-size: 0.875rem;
+    color: #4d4d4d;
+    cursor: pointer;
+    display: block;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 0;
+    /* Styles for required inputs */ }
+    .yt-plugin label.right {
+      float: none !important;
+      text-align: right; }
+    .yt-plugin label.inline {
+      margin: 0 0 1rem 0;
+      padding: 0.5625rem 0; }
+    .yt-plugin label small {
+      text-transform: capitalize;
+      color: #676767; }
+  .yt-plugin select::-ms-expand {
+    display: none; }
+  .yt-plugin .prefix, .yt-plugin .postfix {
+    display: block;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    font-size: 0.875rem;
+    height: 2.3125rem;
+    line-height: 2.3125rem; }
+  .yt-plugin .postfix.button {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    line-height: 2.125rem;
+    border: none; }
+  .yt-plugin .prefix.button {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    line-height: 2.125rem;
+    border: none; }
+  .yt-plugin .prefix.button.radius {
+    border-radius: 0;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px; }
+  .yt-plugin .postfix.button.radius {
+    border-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px; }
+  .yt-plugin .prefix.button.round {
+    border-radius: 0;
+    border-bottom-left-radius: 1000px;
+    border-top-left-radius: 1000px; }
+  .yt-plugin .postfix.button.round {
+    border-radius: 0;
+    border-bottom-right-radius: 1000px;
+    border-top-right-radius: 1000px; }
+  .yt-plugin span.prefix, .yt-plugin label.prefix {
+    background: #f2f2f2;
+    border-right: none;
+    color: #333;
+    border-color: #cccccc; }
+    .yt-plugin span.prefix.radius, .yt-plugin label.prefix.radius {
+      border-radius: 0;
+      border-bottom-left-radius: 3px;
+      border-top-left-radius: 3px; }
+  .yt-plugin span.postfix, .yt-plugin label.postfix {
+    background: #f2f2f2;
+    border-left: none;
+    color: #333;
+    border-color: #cccccc; }
+    .yt-plugin span.postfix.radius, .yt-plugin label.postfix.radius {
+      border-radius: 0;
+      border-bottom-right-radius: 3px;
+      border-top-right-radius: 3px; }
+  .yt-plugin input[type="text"], .yt-plugin input[type="password"], .yt-plugin input[type="date"], .yt-plugin input[type="datetime"], .yt-plugin input[type="datetime-local"], .yt-plugin input[type="month"], .yt-plugin input[type="week"], .yt-plugin input[type="email"], .yt-plugin input[type="number"], .yt-plugin input[type="search"], .yt-plugin input[type="tel"], .yt-plugin input[type="time"], .yt-plugin input[type="url"], .yt-plugin textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    background-color: #fff;
+    font-family: inherit;
+    border: 1px solid #cccccc;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem;
+    height: 2.3125rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
+    .yt-plugin input[type="text"]:focus, .yt-plugin input[type="password"]:focus, .yt-plugin input[type="date"]:focus, .yt-plugin input[type="datetime"]:focus, .yt-plugin input[type="datetime-local"]:focus, .yt-plugin input[type="month"]:focus, .yt-plugin input[type="week"]:focus, .yt-plugin input[type="email"]:focus, .yt-plugin input[type="number"]:focus, .yt-plugin input[type="search"]:focus, .yt-plugin input[type="tel"]:focus, .yt-plugin input[type="time"]:focus, .yt-plugin input[type="url"]:focus, .yt-plugin textarea:focus {
+      box-shadow: 0 0 5px #999999;
+      border-color: #999999; }
+    .yt-plugin input[type="text"]:focus, .yt-plugin input[type="password"]:focus, .yt-plugin input[type="date"]:focus, .yt-plugin input[type="datetime"]:focus, .yt-plugin input[type="datetime-local"]:focus, .yt-plugin input[type="month"]:focus, .yt-plugin input[type="week"]:focus, .yt-plugin input[type="email"]:focus, .yt-plugin input[type="number"]:focus, .yt-plugin input[type="search"]:focus, .yt-plugin input[type="tel"]:focus, .yt-plugin input[type="time"]:focus, .yt-plugin input[type="url"]:focus, .yt-plugin textarea:focus {
+      background: #fafafa;
+      border-color: #999999;
+      outline: none; }
+    .yt-plugin input[type="text"][disabled], .yt-plugin input[type="text"][readonly], fieldset[disabled] .yt-plugin input[type="text"], .yt-plugin input[type="password"][disabled], .yt-plugin input[type="password"][readonly], fieldset[disabled] .yt-plugin input[type="password"], .yt-plugin input[type="date"][disabled], .yt-plugin input[type="date"][readonly], fieldset[disabled] .yt-plugin input[type="date"], .yt-plugin input[type="datetime"][disabled], .yt-plugin input[type="datetime"][readonly], fieldset[disabled] .yt-plugin input[type="datetime"], .yt-plugin input[type="datetime-local"][disabled], .yt-plugin input[type="datetime-local"][readonly], fieldset[disabled] .yt-plugin input[type="datetime-local"], .yt-plugin input[type="month"][disabled], .yt-plugin input[type="month"][readonly], fieldset[disabled] .yt-plugin input[type="month"], .yt-plugin input[type="week"][disabled], .yt-plugin input[type="week"][readonly], fieldset[disabled] .yt-plugin input[type="week"], .yt-plugin input[type="email"][disabled], .yt-plugin input[type="email"][readonly], fieldset[disabled] .yt-plugin input[type="email"], .yt-plugin input[type="number"][disabled], .yt-plugin input[type="number"][readonly], fieldset[disabled] .yt-plugin input[type="number"], .yt-plugin input[type="search"][disabled], .yt-plugin input[type="search"][readonly], fieldset[disabled] .yt-plugin input[type="search"], .yt-plugin input[type="tel"][disabled], .yt-plugin input[type="tel"][readonly], fieldset[disabled] .yt-plugin input[type="tel"], .yt-plugin input[type="time"][disabled], .yt-plugin input[type="time"][readonly], fieldset[disabled] .yt-plugin input[type="time"], .yt-plugin input[type="url"][disabled], .yt-plugin input[type="url"][readonly], fieldset[disabled] .yt-plugin input[type="url"], .yt-plugin textarea[disabled], .yt-plugin textarea[readonly], fieldset[disabled] .yt-plugin textarea {
+      background-color: #ddd; }
+    .yt-plugin input[type="text"].radius, .yt-plugin input[type="password"].radius, .yt-plugin input[type="date"].radius, .yt-plugin input[type="datetime"].radius, .yt-plugin input[type="datetime-local"].radius, .yt-plugin input[type="month"].radius, .yt-plugin input[type="week"].radius, .yt-plugin input[type="email"].radius, .yt-plugin input[type="number"].radius, .yt-plugin input[type="search"].radius, .yt-plugin input[type="tel"].radius, .yt-plugin input[type="time"].radius, .yt-plugin input[type="url"].radius, .yt-plugin textarea.radius {
+      border-radius: 3px; }
+  .yt-plugin input[type="submit"] {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px; }
+  .yt-plugin textarea[rows] {
+    height: auto; }
+  .yt-plugin select {
+    -webkit-appearance: none !important;
+    -webkit-border-radius: 0px;
+    background-color: #fafafa;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+    background-position: 100% center;
+    background-repeat: no-repeat;
+    border: 1px solid #cccccc;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.75);
+    line-height: normal;
+    border-radius: 0;
+    height: 2.3125rem; }
+    .yt-plugin select.radius {
+      border-radius: 3px; }
+    .yt-plugin select:hover {
+      background-color: #f3f3f3;
+      border-color: #999999; }
+  .yt-plugin input[type="file"], .yt-plugin input[type="checkbox"], .yt-plugin input[type="radio"], .yt-plugin select {
+    margin: 0 0 1rem 0; }
+  .yt-plugin input[type="checkbox"] + label, .yt-plugin input[type="radio"] + label {
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    vertical-align: baseline; }
+  .yt-plugin input[type="file"] {
+    width: 100%; }
+  .yt-plugin fieldset {
+    border: 1px solid #ddd;
+    padding: 1.25rem;
+    margin: 1.125rem 0; }
+    .yt-plugin fieldset legend {
+      font-weight: bold;
+      background: #fff;
+      padding: 0 0.1875rem;
+      margin: 0;
+      margin-left: -0.1875rem; }
+  .yt-plugin [data-abide] .error small.error, .yt-plugin [data-abide] .error span.error, .yt-plugin [data-abide] span.error, .yt-plugin [data-abide] small.error {
+    display: block;
+    padding: 0.375rem 0.5625rem 0.5625rem;
+    margin-top: -1px;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-style: italic;
+    background: #f04124;
+    color: #fff; }
+  .yt-plugin [data-abide] span.error, .yt-plugin [data-abide] small.error {
+    display: none; }
+  .yt-plugin span.error, .yt-plugin small.error {
+    display: block;
+    padding: 0.375rem 0.5625rem 0.5625rem;
+    margin-top: -1px;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-style: italic;
+    background: #f04124;
+    color: #fff; }
+  .yt-plugin .error input, .yt-plugin .error textarea, .yt-plugin .error select {
+    margin-bottom: 0; }
+  .yt-plugin .error input[type="checkbox"], .yt-plugin .error input[type="radio"] {
+    margin-bottom: 1rem; }
+  .yt-plugin .error label, .yt-plugin .error label.error {
+    color: #f04124; }
+  .yt-plugin .error small.error {
+    display: block;
+    padding: 0.375rem 0.5625rem 0.5625rem;
+    margin-top: -1px;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-style: italic;
+    background: #f04124;
+    color: #fff; }
+  .yt-plugin .error > label > small {
+    color: #676767;
+    background: transparent;
+    padding: 0;
+    text-transform: capitalize;
+    font-style: normal;
+    font-size: 60%;
+    margin: 0;
+    display: inline; }
+  .yt-plugin .error span.error-message {
+    display: block; }
+  .yt-plugin input.error, .yt-plugin textarea.error {
+    margin-bottom: 0; }
+  .yt-plugin label.error {
+    color: #f04124; }
   .yt-plugin .text-left {
     text-align: left !important; }
   .yt-plugin .text-right {
@@ -1371,238 +1868,11 @@
         display: none !important; }
       .yt-plugin .show-for-print {
         display: inherit !important; } }
-  @media only screen {
-    .yt-plugin .show-for-small-only, .yt-plugin .show-for-small-up, .yt-plugin .show-for-small, .yt-plugin .show-for-small-down, .yt-plugin .hide-for-medium-only, .yt-plugin .hide-for-medium-up, .yt-plugin .hide-for-medium, .yt-plugin .show-for-medium-down, .yt-plugin .hide-for-large-only, .yt-plugin .hide-for-large-up, .yt-plugin .hide-for-large, .yt-plugin .show-for-large-down, .yt-plugin .hide-for-xlarge-only, .yt-plugin .hide-for-xlarge-up, .yt-plugin .hide-for-xxlarge-only, .yt-plugin .hide-for-xxlarge-up {
-      display: inherit !important; }
-    .yt-plugin .hide-for-small-only, .yt-plugin .hide-for-small-up, .yt-plugin .hide-for-small, .yt-plugin .hide-for-small-down, .yt-plugin .show-for-medium-only, .yt-plugin .show-for-medium-up, .yt-plugin .show-for-medium, .yt-plugin .hide-for-medium-down, .yt-plugin .show-for-large-only, .yt-plugin .show-for-large-up, .yt-plugin .show-for-large, .yt-plugin .hide-for-large-down, .yt-plugin .show-for-xlarge-only, .yt-plugin .show-for-xlarge-up, .yt-plugin .show-for-xxlarge-only, .yt-plugin .show-for-xxlarge-up {
-      display: none !important; }
-    .yt-plugin .visible-for-small-only, .yt-plugin .visible-for-small-up, .yt-plugin .visible-for-small, .yt-plugin .visible-for-small-down, .yt-plugin .hidden-for-medium-only, .yt-plugin .hidden-for-medium-up, .yt-plugin .hidden-for-medium, .yt-plugin .visible-for-medium-down, .yt-plugin .hidden-for-large-only, .yt-plugin .hidden-for-large-up, .yt-plugin .hidden-for-large, .yt-plugin .visible-for-large-down, .yt-plugin .hidden-for-xlarge-only, .yt-plugin .hidden-for-xlarge-up, .yt-plugin .hidden-for-xxlarge-only, .yt-plugin .hidden-for-xxlarge-up {
-      position: static !important;
-      height: auto;
-      width: auto;
-      overflow: visible;
-      clip: auto; }
-    .yt-plugin .hidden-for-small-only, .yt-plugin .hidden-for-small-up, .yt-plugin .hidden-for-small, .yt-plugin .hidden-for-small-down, .yt-plugin .visible-for-medium-only, .yt-plugin .visible-for-medium-up, .yt-plugin .visible-for-medium, .yt-plugin .hidden-for-medium-down, .yt-plugin .visible-for-large-only, .yt-plugin .visible-for-large-up, .yt-plugin .visible-for-large, .yt-plugin .hidden-for-large-down, .yt-plugin .visible-for-xlarge-only, .yt-plugin .visible-for-xlarge-up, .yt-plugin .visible-for-xxlarge-only, .yt-plugin .visible-for-xxlarge-up {
-      position: absolute !important;
-      height: 1px;
-      width: 1px;
-      overflow: hidden;
-      clip: rect(1px, 1px, 1px, 1px); }
-    .yt-plugin table.show-for-small-only, .yt-plugin table.show-for-small-up, .yt-plugin table.show-for-small, .yt-plugin table.show-for-small-down, .yt-plugin table.hide-for-medium-only, .yt-plugin table.hide-for-medium-up, .yt-plugin table.hide-for-medium, .yt-plugin table.show-for-medium-down, .yt-plugin table.hide-for-large-only, .yt-plugin table.hide-for-large-up, .yt-plugin table.hide-for-large, .yt-plugin table.show-for-large-down, .yt-plugin table.hide-for-xlarge-only, .yt-plugin table.hide-for-xlarge-up, .yt-plugin table.hide-for-xxlarge-only, .yt-plugin table.hide-for-xxlarge-up {
-      display: table; }
-    .yt-plugin thead.show-for-small-only, .yt-plugin thead.show-for-small-up, .yt-plugin thead.show-for-small, .yt-plugin thead.show-for-small-down, .yt-plugin thead.hide-for-medium-only, .yt-plugin thead.hide-for-medium-up, .yt-plugin thead.hide-for-medium, .yt-plugin thead.show-for-medium-down, .yt-plugin thead.hide-for-large-only, .yt-plugin thead.hide-for-large-up, .yt-plugin thead.hide-for-large, .yt-plugin thead.show-for-large-down, .yt-plugin thead.hide-for-xlarge-only, .yt-plugin thead.hide-for-xlarge-up, .yt-plugin thead.hide-for-xxlarge-only, .yt-plugin thead.hide-for-xxlarge-up {
-      display: table-header-group !important; }
-    .yt-plugin tbody.show-for-small-only, .yt-plugin tbody.show-for-small-up, .yt-plugin tbody.show-for-small, .yt-plugin tbody.show-for-small-down, .yt-plugin tbody.hide-for-medium-only, .yt-plugin tbody.hide-for-medium-up, .yt-plugin tbody.hide-for-medium, .yt-plugin tbody.show-for-medium-down, .yt-plugin tbody.hide-for-large-only, .yt-plugin tbody.hide-for-large-up, .yt-plugin tbody.hide-for-large, .yt-plugin tbody.show-for-large-down, .yt-plugin tbody.hide-for-xlarge-only, .yt-plugin tbody.hide-for-xlarge-up, .yt-plugin tbody.hide-for-xxlarge-only, .yt-plugin tbody.hide-for-xxlarge-up {
-      display: table-row-group !important; }
-    .yt-plugin tr.show-for-small-only, .yt-plugin tr.show-for-small-up, .yt-plugin tr.show-for-small, .yt-plugin tr.show-for-small-down, .yt-plugin tr.hide-for-medium-only, .yt-plugin tr.hide-for-medium-up, .yt-plugin tr.hide-for-medium, .yt-plugin tr.show-for-medium-down, .yt-plugin tr.hide-for-large-only, .yt-plugin tr.hide-for-large-up, .yt-plugin tr.hide-for-large, .yt-plugin tr.show-for-large-down, .yt-plugin tr.hide-for-xlarge-only, .yt-plugin tr.hide-for-xlarge-up, .yt-plugin tr.hide-for-xxlarge-only, .yt-plugin tr.hide-for-xxlarge-up {
-      display: table-row !important; }
-    .yt-plugin th.show-for-small-only, .yt-plugin td.show-for-small-only, .yt-plugin th.show-for-small-up, .yt-plugin td.show-for-small-up, .yt-plugin th.show-for-small, .yt-plugin td.show-for-small, .yt-plugin th.show-for-small-down, .yt-plugin td.show-for-small-down, .yt-plugin th.hide-for-medium-only, .yt-plugin td.hide-for-medium-only, .yt-plugin th.hide-for-medium-up, .yt-plugin td.hide-for-medium-up, .yt-plugin th.hide-for-medium, .yt-plugin td.hide-for-medium, .yt-plugin th.show-for-medium-down, .yt-plugin td.show-for-medium-down, .yt-plugin th.hide-for-large-only, .yt-plugin td.hide-for-large-only, .yt-plugin th.hide-for-large-up, .yt-plugin td.hide-for-large-up, .yt-plugin th.hide-for-large, .yt-plugin td.hide-for-large, .yt-plugin th.show-for-large-down, .yt-plugin td.show-for-large-down, .yt-plugin th.hide-for-xlarge-only, .yt-plugin td.hide-for-xlarge-only, .yt-plugin th.hide-for-xlarge-up, .yt-plugin td.hide-for-xlarge-up, .yt-plugin th.hide-for-xxlarge-only, .yt-plugin td.hide-for-xxlarge-only, .yt-plugin th.hide-for-xxlarge-up, .yt-plugin td.hide-for-xxlarge-up {
-      display: table-cell !important; } }
-  @media only screen and (min-width:40.063em) {
-    .yt-plugin .hide-for-small-only, .yt-plugin .show-for-small-up, .yt-plugin .hide-for-small, .yt-plugin .hide-for-small-down, .yt-plugin .show-for-medium-only, .yt-plugin .show-for-medium-up, .yt-plugin .show-for-medium, .yt-plugin .show-for-medium-down, .yt-plugin .hide-for-large-only, .yt-plugin .hide-for-large-up, .yt-plugin .hide-for-large, .yt-plugin .show-for-large-down, .yt-plugin .hide-for-xlarge-only, .yt-plugin .hide-for-xlarge-up, .yt-plugin .hide-for-xxlarge-only, .yt-plugin .hide-for-xxlarge-up {
-      display: inherit !important; }
-    .yt-plugin .show-for-small-only, .yt-plugin .hide-for-small-up, .yt-plugin .show-for-small, .yt-plugin .show-for-small-down, .yt-plugin .hide-for-medium-only, .yt-plugin .hide-for-medium-up, .yt-plugin .hide-for-medium, .yt-plugin .hide-for-medium-down, .yt-plugin .show-for-large-only, .yt-plugin .show-for-large-up, .yt-plugin .show-for-large, .yt-plugin .hide-for-large-down, .yt-plugin .show-for-xlarge-only, .yt-plugin .show-for-xlarge-up, .yt-plugin .show-for-xxlarge-only, .yt-plugin .show-for-xxlarge-up {
-      display: none !important; }
-    .yt-plugin .hidden-for-small-only, .yt-plugin .visible-for-small-up, .yt-plugin .hidden-for-small, .yt-plugin .hidden-for-small-down, .yt-plugin .visible-for-medium-only, .yt-plugin .visible-for-medium-up, .yt-plugin .visible-for-medium, .yt-plugin .visible-for-medium-down, .yt-plugin .hidden-for-large-only, .yt-plugin .hidden-for-large-up, .yt-plugin .hidden-for-large, .yt-plugin .visible-for-large-down, .yt-plugin .hidden-for-xlarge-only, .yt-plugin .hidden-for-xlarge-up, .yt-plugin .hidden-for-xxlarge-only, .yt-plugin .hidden-for-xxlarge-up {
-      position: static !important;
-      height: auto;
-      width: auto;
-      overflow: visible;
-      clip: auto; }
-    .yt-plugin .visible-for-small-only, .yt-plugin .hidden-for-small-up, .yt-plugin .visible-for-small, .yt-plugin .visible-for-small-down, .yt-plugin .hidden-for-medium-only, .yt-plugin .hidden-for-medium-up, .yt-plugin .hidden-for-medium, .yt-plugin .hidden-for-medium-down, .yt-plugin .visible-for-large-only, .yt-plugin .visible-for-large-up, .yt-plugin .visible-for-large, .yt-plugin .hidden-for-large-down, .yt-plugin .visible-for-xlarge-only, .yt-plugin .visible-for-xlarge-up, .yt-plugin .visible-for-xxlarge-only, .yt-plugin .visible-for-xxlarge-up {
-      position: absolute !important;
-      height: 1px;
-      width: 1px;
-      overflow: hidden;
-      clip: rect(1px, 1px, 1px, 1px); }
-    .yt-plugin table.hide-for-small-only, .yt-plugin table.show-for-small-up, .yt-plugin table.hide-for-small, .yt-plugin table.hide-for-small-down, .yt-plugin table.show-for-medium-only, .yt-plugin table.show-for-medium-up, .yt-plugin table.show-for-medium, .yt-plugin table.show-for-medium-down, .yt-plugin table.hide-for-large-only, .yt-plugin table.hide-for-large-up, .yt-plugin table.hide-for-large, .yt-plugin table.show-for-large-down, .yt-plugin table.hide-for-xlarge-only, .yt-plugin table.hide-for-xlarge-up, .yt-plugin table.hide-for-xxlarge-only, .yt-plugin table.hide-for-xxlarge-up {
-      display: table; }
-    .yt-plugin thead.hide-for-small-only, .yt-plugin thead.show-for-small-up, .yt-plugin thead.hide-for-small, .yt-plugin thead.hide-for-small-down, .yt-plugin thead.show-for-medium-only, .yt-plugin thead.show-for-medium-up, .yt-plugin thead.show-for-medium, .yt-plugin thead.show-for-medium-down, .yt-plugin thead.hide-for-large-only, .yt-plugin thead.hide-for-large-up, .yt-plugin thead.hide-for-large, .yt-plugin thead.show-for-large-down, .yt-plugin thead.hide-for-xlarge-only, .yt-plugin thead.hide-for-xlarge-up, .yt-plugin thead.hide-for-xxlarge-only, .yt-plugin thead.hide-for-xxlarge-up {
-      display: table-header-group !important; }
-    .yt-plugin tbody.hide-for-small-only, .yt-plugin tbody.show-for-small-up, .yt-plugin tbody.hide-for-small, .yt-plugin tbody.hide-for-small-down, .yt-plugin tbody.show-for-medium-only, .yt-plugin tbody.show-for-medium-up, .yt-plugin tbody.show-for-medium, .yt-plugin tbody.show-for-medium-down, .yt-plugin tbody.hide-for-large-only, .yt-plugin tbody.hide-for-large-up, .yt-plugin tbody.hide-for-large, .yt-plugin tbody.show-for-large-down, .yt-plugin tbody.hide-for-xlarge-only, .yt-plugin tbody.hide-for-xlarge-up, .yt-plugin tbody.hide-for-xxlarge-only, .yt-plugin tbody.hide-for-xxlarge-up {
-      display: table-row-group !important; }
-    .yt-plugin tr.hide-for-small-only, .yt-plugin tr.show-for-small-up, .yt-plugin tr.hide-for-small, .yt-plugin tr.hide-for-small-down, .yt-plugin tr.show-for-medium-only, .yt-plugin tr.show-for-medium-up, .yt-plugin tr.show-for-medium, .yt-plugin tr.show-for-medium-down, .yt-plugin tr.hide-for-large-only, .yt-plugin tr.hide-for-large-up, .yt-plugin tr.hide-for-large, .yt-plugin tr.show-for-large-down, .yt-plugin tr.hide-for-xlarge-only, .yt-plugin tr.hide-for-xlarge-up, .yt-plugin tr.hide-for-xxlarge-only, .yt-plugin tr.hide-for-xxlarge-up {
-      display: table-row !important; }
-    .yt-plugin th.hide-for-small-only, .yt-plugin td.hide-for-small-only, .yt-plugin th.show-for-small-up, .yt-plugin td.show-for-small-up, .yt-plugin th.hide-for-small, .yt-plugin td.hide-for-small, .yt-plugin th.hide-for-small-down, .yt-plugin td.hide-for-small-down, .yt-plugin th.show-for-medium-only, .yt-plugin td.show-for-medium-only, .yt-plugin th.show-for-medium-up, .yt-plugin td.show-for-medium-up, .yt-plugin th.show-for-medium, .yt-plugin td.show-for-medium, .yt-plugin th.show-for-medium-down, .yt-plugin td.show-for-medium-down, .yt-plugin th.hide-for-large-only, .yt-plugin td.hide-for-large-only, .yt-plugin th.hide-for-large-up, .yt-plugin td.hide-for-large-up, .yt-plugin th.hide-for-large, .yt-plugin td.hide-for-large, .yt-plugin th.show-for-large-down, .yt-plugin td.show-for-large-down, .yt-plugin th.hide-for-xlarge-only, .yt-plugin td.hide-for-xlarge-only, .yt-plugin th.hide-for-xlarge-up, .yt-plugin td.hide-for-xlarge-up, .yt-plugin th.hide-for-xxlarge-only, .yt-plugin td.hide-for-xxlarge-only, .yt-plugin th.hide-for-xxlarge-up, .yt-plugin td.hide-for-xxlarge-up {
-      display: table-cell !important; } }
-  @media only screen and (min-width:64.063em) {
-    .yt-plugin .hide-for-small-only, .yt-plugin .show-for-small-up, .yt-plugin .hide-for-small, .yt-plugin .hide-for-small-down, .yt-plugin .hide-for-medium-only, .yt-plugin .show-for-medium-up, .yt-plugin .hide-for-medium, .yt-plugin .hide-for-medium-down, .yt-plugin .show-for-large-only, .yt-plugin .show-for-large-up, .yt-plugin .show-for-large, .yt-plugin .show-for-large-down, .yt-plugin .hide-for-xlarge-only, .yt-plugin .hide-for-xlarge-up, .yt-plugin .hide-for-xxlarge-only, .yt-plugin .hide-for-xxlarge-up {
-      display: inherit !important; }
-    .yt-plugin .show-for-small-only, .yt-plugin .hide-for-small-up, .yt-plugin .show-for-small, .yt-plugin .show-for-small-down, .yt-plugin .show-for-medium-only, .yt-plugin .hide-for-medium-up, .yt-plugin .show-for-medium, .yt-plugin .show-for-medium-down, .yt-plugin .hide-for-large-only, .yt-plugin .hide-for-large-up, .yt-plugin .hide-for-large, .yt-plugin .hide-for-large-down, .yt-plugin .show-for-xlarge-only, .yt-plugin .show-for-xlarge-up, .yt-plugin .show-for-xxlarge-only, .yt-plugin .show-for-xxlarge-up {
-      display: none !important; }
-    .yt-plugin .hidden-for-small-only, .yt-plugin .visible-for-small-up, .yt-plugin .hidden-for-small, .yt-plugin .hidden-for-small-down, .yt-plugin .hidden-for-medium-only, .yt-plugin .visible-for-medium-up, .yt-plugin .hidden-for-medium, .yt-plugin .hidden-for-medium-down, .yt-plugin .visible-for-large-only, .yt-plugin .visible-for-large-up, .yt-plugin .visible-for-large, .yt-plugin .visible-for-large-down, .yt-plugin .hidden-for-xlarge-only, .yt-plugin .hidden-for-xlarge-up, .yt-plugin .hidden-for-xxlarge-only, .yt-plugin .hidden-for-xxlarge-up {
-      position: static !important;
-      height: auto;
-      width: auto;
-      overflow: visible;
-      clip: auto; }
-    .yt-plugin .visible-for-small-only, .yt-plugin .hidden-for-small-up, .yt-plugin .visible-for-small, .yt-plugin .visible-for-small-down, .yt-plugin .visible-for-medium-only, .yt-plugin .hidden-for-medium-up, .yt-plugin .visible-for-medium, .yt-plugin .visible-for-medium-down, .yt-plugin .hidden-for-large-only, .yt-plugin .hidden-for-large-up, .yt-plugin .hidden-for-large, .yt-plugin .hidden-for-large-down, .yt-plugin .visible-for-xlarge-only, .yt-plugin .visible-for-xlarge-up, .yt-plugin .visible-for-xxlarge-only, .yt-plugin .visible-for-xxlarge-up {
-      position: absolute !important;
-      height: 1px;
-      width: 1px;
-      overflow: hidden;
-      clip: rect(1px, 1px, 1px, 1px); }
-    .yt-plugin table.hide-for-small-only, .yt-plugin table.show-for-small-up, .yt-plugin table.hide-for-small, .yt-plugin table.hide-for-small-down, .yt-plugin table.hide-for-medium-only, .yt-plugin table.show-for-medium-up, .yt-plugin table.hide-for-medium, .yt-plugin table.hide-for-medium-down, .yt-plugin table.show-for-large-only, .yt-plugin table.show-for-large-up, .yt-plugin table.show-for-large, .yt-plugin table.show-for-large-down, .yt-plugin table.hide-for-xlarge-only, .yt-plugin table.hide-for-xlarge-up, .yt-plugin table.hide-for-xxlarge-only, .yt-plugin table.hide-for-xxlarge-up {
-      display: table; }
-    .yt-plugin thead.hide-for-small-only, .yt-plugin thead.show-for-small-up, .yt-plugin thead.hide-for-small, .yt-plugin thead.hide-for-small-down, .yt-plugin thead.hide-for-medium-only, .yt-plugin thead.show-for-medium-up, .yt-plugin thead.hide-for-medium, .yt-plugin thead.hide-for-medium-down, .yt-plugin thead.show-for-large-only, .yt-plugin thead.show-for-large-up, .yt-plugin thead.show-for-large, .yt-plugin thead.show-for-large-down, .yt-plugin thead.hide-for-xlarge-only, .yt-plugin thead.hide-for-xlarge-up, .yt-plugin thead.hide-for-xxlarge-only, .yt-plugin thead.hide-for-xxlarge-up {
-      display: table-header-group !important; }
-    .yt-plugin tbody.hide-for-small-only, .yt-plugin tbody.show-for-small-up, .yt-plugin tbody.hide-for-small, .yt-plugin tbody.hide-for-small-down, .yt-plugin tbody.hide-for-medium-only, .yt-plugin tbody.show-for-medium-up, .yt-plugin tbody.hide-for-medium, .yt-plugin tbody.hide-for-medium-down, .yt-plugin tbody.show-for-large-only, .yt-plugin tbody.show-for-large-up, .yt-plugin tbody.show-for-large, .yt-plugin tbody.show-for-large-down, .yt-plugin tbody.hide-for-xlarge-only, .yt-plugin tbody.hide-for-xlarge-up, .yt-plugin tbody.hide-for-xxlarge-only, .yt-plugin tbody.hide-for-xxlarge-up {
-      display: table-row-group !important; }
-    .yt-plugin tr.hide-for-small-only, .yt-plugin tr.show-for-small-up, .yt-plugin tr.hide-for-small, .yt-plugin tr.hide-for-small-down, .yt-plugin tr.hide-for-medium-only, .yt-plugin tr.show-for-medium-up, .yt-plugin tr.hide-for-medium, .yt-plugin tr.hide-for-medium-down, .yt-plugin tr.show-for-large-only, .yt-plugin tr.show-for-large-up, .yt-plugin tr.show-for-large, .yt-plugin tr.show-for-large-down, .yt-plugin tr.hide-for-xlarge-only, .yt-plugin tr.hide-for-xlarge-up, .yt-plugin tr.hide-for-xxlarge-only, .yt-plugin tr.hide-for-xxlarge-up {
-      display: table-row !important; }
-    .yt-plugin th.hide-for-small-only, .yt-plugin td.hide-for-small-only, .yt-plugin th.show-for-small-up, .yt-plugin td.show-for-small-up, .yt-plugin th.hide-for-small, .yt-plugin td.hide-for-small, .yt-plugin th.hide-for-small-down, .yt-plugin td.hide-for-small-down, .yt-plugin th.hide-for-medium-only, .yt-plugin td.hide-for-medium-only, .yt-plugin th.show-for-medium-up, .yt-plugin td.show-for-medium-up, .yt-plugin th.hide-for-medium, .yt-plugin td.hide-for-medium, .yt-plugin th.hide-for-medium-down, .yt-plugin td.hide-for-medium-down, .yt-plugin th.show-for-large-only, .yt-plugin td.show-for-large-only, .yt-plugin th.show-for-large-up, .yt-plugin td.show-for-large-up, .yt-plugin th.show-for-large, .yt-plugin td.show-for-large, .yt-plugin th.show-for-large-down, .yt-plugin td.show-for-large-down, .yt-plugin th.hide-for-xlarge-only, .yt-plugin td.hide-for-xlarge-only, .yt-plugin th.hide-for-xlarge-up, .yt-plugin td.hide-for-xlarge-up, .yt-plugin th.hide-for-xxlarge-only, .yt-plugin td.hide-for-xxlarge-only, .yt-plugin th.hide-for-xxlarge-up, .yt-plugin td.hide-for-xxlarge-up {
-      display: table-cell !important; } }
-  @media only screen and (min-width:90.063em) {
-    .yt-plugin .hide-for-small-only, .yt-plugin .show-for-small-up, .yt-plugin .hide-for-small, .yt-plugin .hide-for-small-down, .yt-plugin .hide-for-medium-only, .yt-plugin .show-for-medium-up, .yt-plugin .hide-for-medium, .yt-plugin .hide-for-medium-down, .yt-plugin .hide-for-large-only, .yt-plugin .show-for-large-up, .yt-plugin .hide-for-large, .yt-plugin .hide-for-large-down, .yt-plugin .show-for-xlarge-only, .yt-plugin .show-for-xlarge-up, .yt-plugin .hide-for-xxlarge-only, .yt-plugin .hide-for-xxlarge-up {
-      display: inherit !important; }
-    .yt-plugin .show-for-small-only, .yt-plugin .hide-for-small-up, .yt-plugin .show-for-small, .yt-plugin .show-for-small-down, .yt-plugin .show-for-medium-only, .yt-plugin .hide-for-medium-up, .yt-plugin .show-for-medium, .yt-plugin .show-for-medium-down, .yt-plugin .show-for-large-only, .yt-plugin .hide-for-large-up, .yt-plugin .show-for-large, .yt-plugin .show-for-large-down, .yt-plugin .hide-for-xlarge-only, .yt-plugin .hide-for-xlarge-up, .yt-plugin .show-for-xxlarge-only, .yt-plugin .show-for-xxlarge-up {
-      display: none !important; }
-    .yt-plugin .hidden-for-small-only, .yt-plugin .visible-for-small-up, .yt-plugin .hidden-for-small, .yt-plugin .hidden-for-small-down, .yt-plugin .hidden-for-medium-only, .yt-plugin .visible-for-medium-up, .yt-plugin .hidden-for-medium, .yt-plugin .hidden-for-medium-down, .yt-plugin .hidden-for-large-only, .yt-plugin .visible-for-large-up, .yt-plugin .hidden-for-large, .yt-plugin .hidden-for-large-down, .yt-plugin .visible-for-xlarge-only, .yt-plugin .visible-for-xlarge-up, .yt-plugin .hidden-for-xxlarge-only, .yt-plugin .hidden-for-xxlarge-up {
-      position: static !important;
-      height: auto;
-      width: auto;
-      overflow: visible;
-      clip: auto; }
-    .yt-plugin .visible-for-small-only, .yt-plugin .hidden-for-small-up, .yt-plugin .visible-for-small, .yt-plugin .visible-for-small-down, .yt-plugin .visible-for-medium-only, .yt-plugin .hidden-for-medium-up, .yt-plugin .visible-for-medium, .yt-plugin .visible-for-medium-down, .yt-plugin .visible-for-large-only, .yt-plugin .hidden-for-large-up, .yt-plugin .visible-for-large, .yt-plugin .visible-for-large-down, .yt-plugin .hidden-for-xlarge-only, .yt-plugin .hidden-for-xlarge-up, .yt-plugin .visible-for-xxlarge-only, .yt-plugin .visible-for-xxlarge-up {
-      position: absolute !important;
-      height: 1px;
-      width: 1px;
-      overflow: hidden;
-      clip: rect(1px, 1px, 1px, 1px); }
-    .yt-plugin table.hide-for-small-only, .yt-plugin table.show-for-small-up, .yt-plugin table.hide-for-small, .yt-plugin table.hide-for-small-down, .yt-plugin table.hide-for-medium-only, .yt-plugin table.show-for-medium-up, .yt-plugin table.hide-for-medium, .yt-plugin table.hide-for-medium-down, .yt-plugin table.hide-for-large-only, .yt-plugin table.show-for-large-up, .yt-plugin table.hide-for-large, .yt-plugin table.hide-for-large-down, .yt-plugin table.show-for-xlarge-only, .yt-plugin table.show-for-xlarge-up, .yt-plugin table.hide-for-xxlarge-only, .yt-plugin table.hide-for-xxlarge-up {
-      display: table; }
-    .yt-plugin thead.hide-for-small-only, .yt-plugin thead.show-for-small-up, .yt-plugin thead.hide-for-small, .yt-plugin thead.hide-for-small-down, .yt-plugin thead.hide-for-medium-only, .yt-plugin thead.show-for-medium-up, .yt-plugin thead.hide-for-medium, .yt-plugin thead.hide-for-medium-down, .yt-plugin thead.hide-for-large-only, .yt-plugin thead.show-for-large-up, .yt-plugin thead.hide-for-large, .yt-plugin thead.hide-for-large-down, .yt-plugin thead.show-for-xlarge-only, .yt-plugin thead.show-for-xlarge-up, .yt-plugin thead.hide-for-xxlarge-only, .yt-plugin thead.hide-for-xxlarge-up {
-      display: table-header-group !important; }
-    .yt-plugin tbody.hide-for-small-only, .yt-plugin tbody.show-for-small-up, .yt-plugin tbody.hide-for-small, .yt-plugin tbody.hide-for-small-down, .yt-plugin tbody.hide-for-medium-only, .yt-plugin tbody.show-for-medium-up, .yt-plugin tbody.hide-for-medium, .yt-plugin tbody.hide-for-medium-down, .yt-plugin tbody.hide-for-large-only, .yt-plugin tbody.show-for-large-up, .yt-plugin tbody.hide-for-large, .yt-plugin tbody.hide-for-large-down, .yt-plugin tbody.show-for-xlarge-only, .yt-plugin tbody.show-for-xlarge-up, .yt-plugin tbody.hide-for-xxlarge-only, .yt-plugin tbody.hide-for-xxlarge-up {
-      display: table-row-group !important; }
-    .yt-plugin tr.hide-for-small-only, .yt-plugin tr.show-for-small-up, .yt-plugin tr.hide-for-small, .yt-plugin tr.hide-for-small-down, .yt-plugin tr.hide-for-medium-only, .yt-plugin tr.show-for-medium-up, .yt-plugin tr.hide-for-medium, .yt-plugin tr.hide-for-medium-down, .yt-plugin tr.hide-for-large-only, .yt-plugin tr.show-for-large-up, .yt-plugin tr.hide-for-large, .yt-plugin tr.hide-for-large-down, .yt-plugin tr.show-for-xlarge-only, .yt-plugin tr.show-for-xlarge-up, .yt-plugin tr.hide-for-xxlarge-only, .yt-plugin tr.hide-for-xxlarge-up {
-      display: table-row !important; }
-    .yt-plugin th.hide-for-small-only, .yt-plugin td.hide-for-small-only, .yt-plugin th.show-for-small-up, .yt-plugin td.show-for-small-up, .yt-plugin th.hide-for-small, .yt-plugin td.hide-for-small, .yt-plugin th.hide-for-small-down, .yt-plugin td.hide-for-small-down, .yt-plugin th.hide-for-medium-only, .yt-plugin td.hide-for-medium-only, .yt-plugin th.show-for-medium-up, .yt-plugin td.show-for-medium-up, .yt-plugin th.hide-for-medium, .yt-plugin td.hide-for-medium, .yt-plugin th.hide-for-medium-down, .yt-plugin td.hide-for-medium-down, .yt-plugin th.hide-for-large-only, .yt-plugin td.hide-for-large-only, .yt-plugin th.show-for-large-up, .yt-plugin td.show-for-large-up, .yt-plugin th.hide-for-large, .yt-plugin td.hide-for-large, .yt-plugin th.hide-for-large-down, .yt-plugin td.hide-for-large-down, .yt-plugin th.show-for-xlarge-only, .yt-plugin td.show-for-xlarge-only, .yt-plugin th.show-for-xlarge-up, .yt-plugin td.show-for-xlarge-up, .yt-plugin th.hide-for-xxlarge-only, .yt-plugin td.hide-for-xxlarge-only, .yt-plugin th.hide-for-xxlarge-up, .yt-plugin td.hide-for-xxlarge-up {
-      display: table-cell !important; } }
-  @media only screen and (min-width:120.063em) {
-    .yt-plugin .hide-for-small-only, .yt-plugin .show-for-small-up, .yt-plugin .hide-for-small, .yt-plugin .hide-for-small-down, .yt-plugin .hide-for-medium-only, .yt-plugin .show-for-medium-up, .yt-plugin .hide-for-medium, .yt-plugin .hide-for-medium-down, .yt-plugin .hide-for-large-only, .yt-plugin .show-for-large-up, .yt-plugin .hide-for-large, .yt-plugin .hide-for-large-down, .yt-plugin .hide-for-xlarge-only, .yt-plugin .show-for-xlarge-up, .yt-plugin .show-for-xxlarge-only, .yt-plugin .show-for-xxlarge-up {
-      display: inherit !important; }
-    .yt-plugin .show-for-small-only, .yt-plugin .hide-for-small-up, .yt-plugin .show-for-small, .yt-plugin .show-for-small-down, .yt-plugin .show-for-medium-only, .yt-plugin .hide-for-medium-up, .yt-plugin .show-for-medium, .yt-plugin .show-for-medium-down, .yt-plugin .show-for-large-only, .yt-plugin .hide-for-large-up, .yt-plugin .show-for-large, .yt-plugin .show-for-large-down, .yt-plugin .show-for-xlarge-only, .yt-plugin .hide-for-xlarge-up, .yt-plugin .hide-for-xxlarge-only, .yt-plugin .hide-for-xxlarge-up {
-      display: none !important; }
-    .yt-plugin .hidden-for-small-only, .yt-plugin .visible-for-small-up, .yt-plugin .hidden-for-small, .yt-plugin .hidden-for-small-down, .yt-plugin .hidden-for-medium-only, .yt-plugin .visible-for-medium-up, .yt-plugin .hidden-for-medium, .yt-plugin .hidden-for-medium-down, .yt-plugin .hidden-for-large-only, .yt-plugin .visible-for-large-up, .yt-plugin .hidden-for-large, .yt-plugin .hidden-for-large-down, .yt-plugin .hidden-for-xlarge-only, .yt-plugin .visible-for-xlarge-up, .yt-plugin .visible-for-xxlarge-only, .yt-plugin .visible-for-xxlarge-up {
-      position: static !important;
-      height: auto;
-      width: auto;
-      overflow: visible;
-      clip: auto; }
-    .yt-plugin .visible-for-small-only, .yt-plugin .hidden-for-small-up, .yt-plugin .visible-for-small, .yt-plugin .visible-for-small-down, .yt-plugin .visible-for-medium-only, .yt-plugin .hidden-for-medium-up, .yt-plugin .visible-for-medium, .yt-plugin .visible-for-medium-down, .yt-plugin .visible-for-large-only, .yt-plugin .hidden-for-large-up, .yt-plugin .visible-for-large, .yt-plugin .visible-for-large-down, .yt-plugin .visible-for-xlarge-only, .yt-plugin .hidden-for-xlarge-up, .yt-plugin .hidden-for-xxlarge-only, .yt-plugin .hidden-for-xxlarge-up {
-      position: absolute !important;
-      height: 1px;
-      width: 1px;
-      overflow: hidden;
-      clip: rect(1px, 1px, 1px, 1px); }
-    .yt-plugin table.hide-for-small-only, .yt-plugin table.show-for-small-up, .yt-plugin table.hide-for-small, .yt-plugin table.hide-for-small-down, .yt-plugin table.hide-for-medium-only, .yt-plugin table.show-for-medium-up, .yt-plugin table.hide-for-medium, .yt-plugin table.hide-for-medium-down, .yt-plugin table.hide-for-large-only, .yt-plugin table.show-for-large-up, .yt-plugin table.hide-for-large, .yt-plugin table.hide-for-large-down, .yt-plugin table.hide-for-xlarge-only, .yt-plugin table.show-for-xlarge-up, .yt-plugin table.show-for-xxlarge-only, .yt-plugin table.show-for-xxlarge-up {
-      display: table; }
-    .yt-plugin thead.hide-for-small-only, .yt-plugin thead.show-for-small-up, .yt-plugin thead.hide-for-small, .yt-plugin thead.hide-for-small-down, .yt-plugin thead.hide-for-medium-only, .yt-plugin thead.show-for-medium-up, .yt-plugin thead.hide-for-medium, .yt-plugin thead.hide-for-medium-down, .yt-plugin thead.hide-for-large-only, .yt-plugin thead.show-for-large-up, .yt-plugin thead.hide-for-large, .yt-plugin thead.hide-for-large-down, .yt-plugin thead.hide-for-xlarge-only, .yt-plugin thead.show-for-xlarge-up, .yt-plugin thead.show-for-xxlarge-only, .yt-plugin thead.show-for-xxlarge-up {
-      display: table-header-group !important; }
-    .yt-plugin tbody.hide-for-small-only, .yt-plugin tbody.show-for-small-up, .yt-plugin tbody.hide-for-small, .yt-plugin tbody.hide-for-small-down, .yt-plugin tbody.hide-for-medium-only, .yt-plugin tbody.show-for-medium-up, .yt-plugin tbody.hide-for-medium, .yt-plugin tbody.hide-for-medium-down, .yt-plugin tbody.hide-for-large-only, .yt-plugin tbody.show-for-large-up, .yt-plugin tbody.hide-for-large, .yt-plugin tbody.hide-for-large-down, .yt-plugin tbody.hide-for-xlarge-only, .yt-plugin tbody.show-for-xlarge-up, .yt-plugin tbody.show-for-xxlarge-only, .yt-plugin tbody.show-for-xxlarge-up {
-      display: table-row-group !important; }
-    .yt-plugin tr.hide-for-small-only, .yt-plugin tr.show-for-small-up, .yt-plugin tr.hide-for-small, .yt-plugin tr.hide-for-small-down, .yt-plugin tr.hide-for-medium-only, .yt-plugin tr.show-for-medium-up, .yt-plugin tr.hide-for-medium, .yt-plugin tr.hide-for-medium-down, .yt-plugin tr.hide-for-large-only, .yt-plugin tr.show-for-large-up, .yt-plugin tr.hide-for-large, .yt-plugin tr.hide-for-large-down, .yt-plugin tr.hide-for-xlarge-only, .yt-plugin tr.show-for-xlarge-up, .yt-plugin tr.show-for-xxlarge-only, .yt-plugin tr.show-for-xxlarge-up {
-      display: table-row !important; }
-    .yt-plugin th.hide-for-small-only, .yt-plugin td.hide-for-small-only, .yt-plugin th.show-for-small-up, .yt-plugin td.show-for-small-up, .yt-plugin th.hide-for-small, .yt-plugin td.hide-for-small, .yt-plugin th.hide-for-small-down, .yt-plugin td.hide-for-small-down, .yt-plugin th.hide-for-medium-only, .yt-plugin td.hide-for-medium-only, .yt-plugin th.show-for-medium-up, .yt-plugin td.show-for-medium-up, .yt-plugin th.hide-for-medium, .yt-plugin td.hide-for-medium, .yt-plugin th.hide-for-medium-down, .yt-plugin td.hide-for-medium-down, .yt-plugin th.hide-for-large-only, .yt-plugin td.hide-for-large-only, .yt-plugin th.show-for-large-up, .yt-plugin td.show-for-large-up, .yt-plugin th.hide-for-large, .yt-plugin td.hide-for-large, .yt-plugin th.hide-for-large-down, .yt-plugin td.hide-for-large-down, .yt-plugin th.hide-for-xlarge-only, .yt-plugin td.hide-for-xlarge-only, .yt-plugin th.show-for-xlarge-up, .yt-plugin td.show-for-xlarge-up, .yt-plugin th.show-for-xxlarge-only, .yt-plugin td.show-for-xxlarge-only, .yt-plugin th.show-for-xxlarge-up, .yt-plugin td.show-for-xxlarge-up {
-      display: table-cell !important; } }
-  .yt-plugin .show-for-landscape, .yt-plugin .hide-for-portrait {
-    display: inherit !important; }
-  .yt-plugin .hide-for-landscape, .yt-plugin .show-for-portrait {
-    display: none !important; }
-  .yt-plugin table.hide-for-landscape, .yt-plugin table.show-for-portrait {
-    display: table; }
-  .yt-plugin thead.hide-for-landscape, .yt-plugin thead.show-for-portrait {
-    display: table-header-group !important; }
-  .yt-plugin tbody.hide-for-landscape, .yt-plugin tbody.show-for-portrait {
-    display: table-row-group !important; }
-  .yt-plugin tr.hide-for-landscape, .yt-plugin tr.show-for-portrait {
-    display: table-row !important; }
-  .yt-plugin td.hide-for-landscape, .yt-plugin td.show-for-portrait, .yt-plugin th.hide-for-landscape, .yt-plugin th.show-for-portrait {
-    display: table-cell !important; }
-  @media only screen and (orientation: landscape) {
-    .yt-plugin {
-      /* Specific visibility for tables */ }
-      .yt-plugin .show-for-landscape, .yt-plugin .hide-for-portrait {
-        display: inherit !important; }
-      .yt-plugin .hide-for-landscape, .yt-plugin .show-for-portrait {
-        display: none !important; }
-      .yt-plugin table.show-for-landscape, .yt-plugin table.hide-for-portrait {
-        display: table; }
-      .yt-plugin thead.show-for-landscape, .yt-plugin thead.hide-for-portrait {
-        display: table-header-group !important; }
-      .yt-plugin tbody.show-for-landscape, .yt-plugin tbody.hide-for-portrait {
-        display: table-row-group !important; }
-      .yt-plugin tr.show-for-landscape, .yt-plugin tr.hide-for-portrait {
-        display: table-row !important; }
-      .yt-plugin td.show-for-landscape, .yt-plugin td.hide-for-portrait, .yt-plugin th.show-for-landscape, .yt-plugin th.hide-for-portrait {
-        display: table-cell !important; } }
-  @media only screen and (orientation: portrait) {
-    .yt-plugin {
-      /* Specific visibility for tables */ }
-      .yt-plugin .show-for-portrait, .yt-plugin .hide-for-landscape {
-        display: inherit !important; }
-      .yt-plugin .hide-for-portrait, .yt-plugin .show-for-landscape {
-        display: none !important; }
-      .yt-plugin table.show-for-portrait, .yt-plugin table.hide-for-landscape {
-        display: table; }
-      .yt-plugin thead.show-for-portrait, .yt-plugin thead.hide-for-landscape {
-        display: table-header-group !important; }
-      .yt-plugin tbody.show-for-portrait, .yt-plugin tbody.hide-for-landscape {
-        display: table-row-group !important; }
-      .yt-plugin tr.show-for-portrait, .yt-plugin tr.hide-for-landscape {
-        display: table-row !important; }
-      .yt-plugin td.show-for-portrait, .yt-plugin td.hide-for-landscape, .yt-plugin th.show-for-portrait, .yt-plugin th.hide-for-landscape {
-        display: table-cell !important; } }
-  .yt-plugin .show-for-touch {
-    display: none !important; }
-  .yt-plugin .hide-for-touch {
-    display: inherit !important; }
-  .yt-plugin .touch .show-for-touch {
-    display: inherit !important; }
-  .yt-plugin .touch .hide-for-touch {
-    display: none !important; }
-  .yt-plugin table.hide-for-touch {
-    display: table; }
-  .yt-plugin .touch table.show-for-touch {
-    display: table; }
-  .yt-plugin thead.hide-for-touch {
-    display: table-header-group !important; }
-  .yt-plugin .touch thead.show-for-touch {
-    display: table-header-group !important; }
-  .yt-plugin tbody.hide-for-touch {
-    display: table-row-group !important; }
-  .yt-plugin .touch tbody.show-for-touch {
-    display: table-row-group !important; }
-  .yt-plugin tr.hide-for-touch {
-    display: table-row !important; }
-  .yt-plugin .touch tr.show-for-touch {
-    display: table-row !important; }
-  .yt-plugin td.hide-for-touch {
-    display: table-cell !important; }
-  .yt-plugin .touch td.show-for-touch {
-    display: table-cell !important; }
-  .yt-plugin th.hide-for-touch {
-    display: table-cell !important; }
-  .yt-plugin .touch th.show-for-touch {
-    display: table-cell !important; }
-  @media print {
-    .yt-plugin .show-for-print {
-      display: block; }
-    .yt-plugin .hide-for-print {
-      display: none; }
-    .yt-plugin table.show-for-print {
-      display: table; }
-    .yt-plugin thead.show-for-print {
-      display: table-header-group !important; }
-    .yt-plugin tbody.show-for-print {
-      display: table-row-group !important; }
-    .yt-plugin tr.show-for-print {
-      display: table-row !important; }
-    .yt-plugin td.show-for-print {
-      display: table-cell !important; }
-    .yt-plugin th.show-for-print {
-      display: table-cell !important; } }
+  .yt-plugin a {
+    color: #004e96;
+    line-height: inherit; }
+    .yt-plugin a:hover {
+      color: #004581; }
   .yt-plugin iframe {
     margin: 0 auto;
     display: block; }
@@ -1623,9 +1893,12 @@
   .yt-plugin .desc-container {
     background-color: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset; }
+    .yt-plugin .desc-container h4 {
+      color: #004e96; }
     .yt-plugin .desc-container p {
       font-size: 1.25em;
-      text-align: justify; }
+      text-align: justify;
+      color: #333; }
     .yt-plugin .desc-container.under p {
       overflow: hidden;
       margin-bottom: 0.5em;
@@ -1764,7 +2037,8 @@
       text-align: center; }
     .yt-plugin .thumbs-list p {
       font-size: 0.6rem;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      color: #333; }
   .yt-plugin .next-arrow, .yt-plugin .prev-arrow {
     position: relative;
     display: block;
