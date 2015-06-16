@@ -73,6 +73,15 @@
                     }
                     self.currentChannel.html('<span class="channelid">' +  $(this).text() + '</span>');
                     self.searchContainer.show();
+                  } else if(data.username){
+                    self.getId(data.username, true);
+                    if($('.lt-ie9').length > 0) {
+                      self.searchBox.val('Search this channel');
+                    } else {
+                      self.searchBox.val('');
+                    }
+                    self.currentChannel.html('<span class="channelid">' +  $(this).text() + '</span>');
+                    self.searchContainer.show();
                   } else if(data.playlistid) {
                     self.getPlaylistItems(data.playlistid);
                     if($('.lt-ie9').length > 0) {
@@ -119,16 +128,20 @@
       if(this.options.playlist.length > 0) {
         this.channelContainer.find('.sub-menu a').first().trigger('click');
       } else if(this.options.username !== '') {
-        this.getId(this.options.username);
+        this.getId(this.options.username, true);
       }
     },
-    getId: function(username){
+    getId: function(id, name){
       var self = this, data = {
         part: 'id, contentDetails',
-        forUsername: username,
         key: self.options.key,
         maxResults: this.options.maxResults
       };
+      if(name) {
+        data.forUsername = id;
+      } else {
+        data.id = id;
+      }
       $.ajax({
         url: self.options.earl + '/channels',
         data: data,
@@ -378,7 +391,7 @@
       })
       .done(function(data) {
         //console.log('getPlaylists', data);
-        if(data.items.length > 0){
+        if(data.items){
           self.options.currentPlaylistItems = data.items;
           self.controlBar.find('.playlist-selector .sub-menu').empty(); //self.options.uploadsPlaylistId
           data.items.unshift({

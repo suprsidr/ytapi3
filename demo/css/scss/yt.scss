@@ -184,7 +184,7 @@ body {
         }
       }
       
-      .playlistid, .channelid {
+      .playlistid, .channelid, .username {
         position: relative;
         &:before {
           position: absolute;
@@ -198,7 +198,7 @@ body {
         }
       }
       
-      .channelid {
+      .channelid, .username {
         &:before {
           background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAbFBMVEUAAAARERAiIiAFBQQICAgHBwcFBQUDAwMDAwMPDw4CAgIYGBcHBwYEBAQODg0ICAgQEBASEhEAAAAFBQUEBAQxMS8PDw0LCwsLCwsKCgomJiQBAQEHBwYTExIICAgSEhE8PDkJCQgMDAsAAAGibPwWAAAAI3RSTlMATQ3MxdDRnOEZ5JHo6xaNTk4Sk70ZNC6CeyvX20PJQxXYCTtl+gkAAABqSURBVBjTtchHEoAgEETRlqgIYs6xvP8dnQVUcQHfYmr6g0z7ANJuI4LS3bSNpjcWy1jYsSjVxZ95Kfn5vpxL1TGg6kWdNdl10Kl7MWBxSNgZWqZB6H+Cz9PweKx2LqJqcSOwcpMHRk34ANJ/BTw/cfSZAAAAAElFTkSuQmCC);
         }

@@ -1981,9 +1981,9 @@ body {
         text-overflow: ellipsis; }
       .yt-plugin .control-bar .playlist-selector:hover .sub-menu, .yt-plugin .control-bar .channel-selector:hover .sub-menu {
         display: block; }
-      .yt-plugin .control-bar .playlist-selector .playlistid, .yt-plugin .control-bar .playlist-selector .channelid, .yt-plugin .control-bar .channel-selector .playlistid, .yt-plugin .control-bar .channel-selector .channelid {
+      .yt-plugin .control-bar .playlist-selector .playlistid, .yt-plugin .control-bar .playlist-selector .channelid, .yt-plugin .control-bar .playlist-selector .username, .yt-plugin .control-bar .channel-selector .playlistid, .yt-plugin .control-bar .channel-selector .channelid, .yt-plugin .control-bar .channel-selector .username {
         position: relative; }
-        .yt-plugin .control-bar .playlist-selector .playlistid:before, .yt-plugin .control-bar .playlist-selector .channelid:before, .yt-plugin .control-bar .channel-selector .playlistid:before, .yt-plugin .control-bar .channel-selector .channelid:before {
+        .yt-plugin .control-bar .playlist-selector .playlistid:before, .yt-plugin .control-bar .playlist-selector .channelid:before, .yt-plugin .control-bar .playlist-selector .username:before, .yt-plugin .control-bar .channel-selector .playlistid:before, .yt-plugin .control-bar .channel-selector .channelid:before, .yt-plugin .control-bar .channel-selector .username:before {
           position: absolute;
           top: 0;
           left: -1.25rem;
@@ -1992,7 +1992,7 @@ body {
           height: 16px;
           background-repeat: no-repeat;
           background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAsVBMVEUAAAC9vLwBAgINDAwEBATr6+sDAwPLy8sBAQE/Pj4VFBQ9PDzR0dEAAABYV1cCAgJqaWnp6ekwLy8AAABVVFTKyclxcHADAwOnpqYUEhIAAAARERECAQELCwtIR0d8e3u+vr4UFBSYl5e+vr6np6dRUFADAwNAPj7+/v4AAAB2dXUrKioDAwPHx8c4ODgAAAC6ubm5uLglIyMeHBwVExMXFRUNDAwiICAIBgYsKio0MzMIR+4mAAAAMnRSTlMAWlq9GiNmXVa1/bZKJFtqvhyyQXNCfXJ07A1UT6S1qmEtkiIM9Zv1EzjEvCpVq7ldXwk1AYwAAACMSURBVBjTbc7XEoIwEIXhIxLFEQRB7L33FhbR938w1xicMON3+V+cXQCDYR8F9aQ3cmwj1OT9Ials2UZgn9bx8qAK0bP9C5LkK+gKPUokN5OpQG68mrtbGBZLFM3WEY5+hfnfy2F2QCslljZUcPcniKrSxF+7SwTPcpj+/pyFvJEwvREHMcStxK688QbFIA/T78gGzwAAAABJRU5ErkJggg==); }
-      .yt-plugin .control-bar .playlist-selector .channelid:before, .yt-plugin .control-bar .channel-selector .channelid:before {
+      .yt-plugin .control-bar .playlist-selector .channelid:before, .yt-plugin .control-bar .playlist-selector .username:before, .yt-plugin .control-bar .channel-selector .channelid:before, .yt-plugin .control-bar .channel-selector .username:before {
         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAbFBMVEUAAAARERAiIiAFBQQICAgHBwcFBQUDAwMDAwMPDw4CAgIYGBcHBwYEBAQODg0ICAgQEBASEhEAAAAFBQUEBAQxMS8PDw0LCwsLCwsKCgomJiQBAQEHBwYTExIICAgSEhE8PDkJCQgMDAsAAAGibPwWAAAAI3RSTlMATQ3MxdDRnOEZ5JHo6xaNTk4Sk70ZNC6CeyvX20PJQxXYCTtl+gkAAABqSURBVBjTtchHEoAgEETRlqgIYs6xvP8dnQVUcQHfYmr6g0z7ANJuI4LS3bSNpjcWy1jYsSjVxZ95Kfn5vpxL1TGg6kWdNdl10Kl7MWBxSNgZWqZB6H+Cz9PweKx2LqJqcSOwcpMHRk34ANJ/BTw/cfSZAAAAAElFTkSuQmCC); }
       .yt-plugin .control-bar .playlist-selector .sub-menu, .yt-plugin .control-bar .channel-selector .sub-menu {
         position: absolute;
